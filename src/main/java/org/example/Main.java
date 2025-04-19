@@ -9,5 +9,6 @@ public class Main {
         persona1.setEdad(20);
         persona1.setNacionalidad(new String[]{"peruano", "estadounidense"});
         System.out.println(persona1);
+        System.out.println("¡Hola!");
     }
 }
