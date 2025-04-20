@@ -8,8 +8,12 @@ public class Main {
         persona1.setApellido("Carrasco Martínez");
         persona1.setEdad(20);
         persona1.setNacionalidad(new String[]{"peruano", "estadounidense"});
-        System.out.println(persona1);
-        System.out.println("¡Hola!");
-        System.out.println("Ale pe chicos");
+
+        String nombre = persona1.getNombre();
+        String apellido = persona1.getApellido();
+        int edad = persona1.getEdad();
+        String nacionalidad[] = persona1.getNacionalidad();
+        String mensaje = "Hola, soy "+nombre+" "+apellido+" y tengo "+edad+", mi nacionalidad es: "+nacionalidad[0]+"-"+nacionalidad[1];
+        System.out.println(mensaje);
     }
 }
