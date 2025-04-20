@@ -10,5 +10,6 @@ public class Main {
         persona1.setNacionalidad(new String[]{"peruano", "estadounidense"});
         System.out.println(persona1);
         System.out.println("¡Hola!");
+        System.out.println("Ale pe chicos");
     }
 }
