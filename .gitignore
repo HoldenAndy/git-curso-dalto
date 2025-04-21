@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+#Ignorar los txt
+DocumentoTexto.txt
+Textito.txt
