@@ -16,5 +16,6 @@ public class Main {
         String mensaje = "Hola, soy "+nombre+" "+apellido+" y tengo "+edad+", mi nacionalidad es: "+nacionalidad[0]+"-"+nacionalidad[1];
         System.out.println("¡Mensaje de que todo el código está correcto! :D");
         System.out.println(mensaje);
+        System.out.println("Habla pe causa");
     }
 }
