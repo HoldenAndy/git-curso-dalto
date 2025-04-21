@@ -14,7 +14,7 @@ public class Main {
         int edad = persona1.getEdad();
         String nacionalidad[] = persona1.getNacionalidad();
         String mensaje = "Hola, soy "+nombre+" "+apellido+" y tengo "+edad+", mi nacionalidad es: "+nacionalidad[0]+"-"+nacionalidad[1];
-        System.out.println("¡Mensaje de que todo el código está correcto!");
+        System.out.println("¡Mensaje de que todo el código está correcto! :D");
         System.out.println(mensaje);
     }
 }
